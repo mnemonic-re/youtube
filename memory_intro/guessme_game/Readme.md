@@ -1,4 +1,4 @@
-Compile Options to reduce the size of binary and disable security measures for practice
+Compile Options to reduce the size of binary and disable security measures for practice.
 
 - C\C++ -> Optimization -> Optimization = DISABLED
 - C\C++ -> Code Generation -> Security Check = Disable Security Check (/GS-)
