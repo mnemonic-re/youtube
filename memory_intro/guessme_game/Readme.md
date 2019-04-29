@@ -1,4 +1,7 @@
-Compile Options to reduce the size of binary and disable security measures for practice.
+> ## guessme.cpp = Source code for the GuessMe game
+> ## SharpMemory = Source code for the C# library to use Win32 APIs 
+
+> ## Compile Options to reduce the size of binary and disable security measures for practice.
 
 > C\C++ -> Optimization -> Optimization = DISABLED
 
