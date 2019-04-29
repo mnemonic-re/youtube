@@ -258,8 +258,8 @@ void Arrays()
 
 	printf("int multiArray[5][2] = { { 0,0 },{ 1,2 },{ 2,3 },{ 3,4 },{ 4,5 } }\n");
 	int multiArray[5][2] = { { 0,0 },{ 1,2 },{ 2,3 },{ 3,4 },{ 4,5 } };
-	for (int i = 0; i < 5; i++) {
-
+	for (int i = 0; i < 5; i++) 
+	{
 		for (int j = 0; j < 2; j++) {
 			printf("multiArray[%d][%d] = %d\n", i, j, multiArray[i][j]);
 		}
@@ -268,7 +268,7 @@ void Arrays()
 
 	printf("\n");
 
-	printf("char coder[1][7] = { 'd', 'i', 's', 's', 'a', 's', 'm' }\n");
+	printf("char dissasm[1][7] = { 'd', 'i', 's', 's', 'a', 's', 'm' }\n");
 	char coder[1][7] = 
 	{
 		{ 'd', 'i', 's', 's', 'a', 's', 'm' }
@@ -279,7 +279,7 @@ void Arrays()
 
 void Mathematical()
 {
-	printf("Calculator (add, sub, mul, div, modulo)\n");
+	printf("Calculator (add, sub, mul, div, modulo/remainder)\n");
 	__asm nop;
 	int var1, var2;
 	printf("value 1: "); scanf_s("%d", &var1);
@@ -291,7 +291,7 @@ void Mathematical()
 	printf("Subtraction: %d\n", var1 - var2);
 	printf("Multiplication: %d\n", var1 * var2);
 	printf("Division: %d\n", var1 / var2);
-	printf("Modulo: %d\n", var1 % var2);
+	printf("Modulo/Remainder: %d\n", var1 % var2);
 }
 
 void Structures()
@@ -387,7 +387,7 @@ int main()
 	printf("--------------------------- \n");
 	printf(" Disassembly Menu \n");
 	printf("--------------------------- \n");
-	//printf("0. \n");
+	printf("0. \n");
 	printf("1. Types\n");
 	printf("2. Comparisons (jumps)\n");
 	printf("3. Mathematical (calculator)\n");
