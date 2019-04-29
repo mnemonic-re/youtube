@@ -397,7 +397,7 @@ int main()
 	printf("7. Boolean Bitwise\n");
 	printf("8. Boolean Logical\n");
 	printf("9. Structures\n");
-	printf("10. Pointers\n");
+	printf("a. Pointers\n");
 	printf("-------------------------- \n");
 	printf("Examine Disassembly: "); scanf_s("%c", &ch);
 	printf("-------------------------- \n");
