@@ -3,6 +3,7 @@
 #include <iostream>
 #include <Windows.h>
 
+
 void DataTypes()
 {
 	printf("----------------------------\n");
