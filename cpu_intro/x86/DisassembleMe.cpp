@@ -273,7 +273,7 @@ void Arrays()
 	{
 		{ 'd', 'i', 's', 's', 'a', 's', 'm' }
 	};
-	printf("%s\n", disassm);
+	printf("%s\n", dissasm);
 	__asm nop;
 }
 
