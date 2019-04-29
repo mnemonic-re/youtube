@@ -17,7 +17,6 @@ int main()
 	int random = rand() % 1000 + 1;
 	int guess;
 
-
 	while (true)
 	{
 		scanf("%d", &guess);
