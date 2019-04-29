@@ -9,6 +9,7 @@
 > There is much more that can be added or changed here and played with to learn how to read assembly code 
 > and how that code behaves in memory!
 
+### You can compile it as a 32bit binary and 64bit binary so you can see the difference!
 
 ### Compile 
 
