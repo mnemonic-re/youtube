@@ -10,7 +10,7 @@
 > and how that code behaves in memory!
 
 
-### Compile
+### Compile 
 
 This was written in Visual Studio on windows but it will compile on Linux. 
 
